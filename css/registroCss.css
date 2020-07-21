@@ -1,0 +1,69 @@
+body{
+	display: 	flex;
+}
+*{
+	font-family: 'Balsamiq Sans', cursive;
+	margin: 0;
+	padding: 0;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	padding: 	10px;
+	width: 400px;
+	margin: 20px auto;
+	background-color: #CEF;
+	border: 2px solid #000;
+	border-radius: 5px;
+}
+label{
+	width: 35%;
+	margin-left:15px;
+}
+input{
+	width: 50%;
+	margin: 5px 0;
+	box-shadow: 0.5px 0.5px 3px 0px #000 inset;
+}
+.formBox{
+	display: flex;
+}
+h1{
+	text-align: center;
+}
+.formTitle{
+	width: auto;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px auto;
+}
+#cvv{
+	width: 10%;
+}
+.cardNumber{
+	width: 9%;
+	margin-right: 15px;
+}
+#submiBox{
+	display: flex;
+	align-items: center;
+	margin: 5px;
+	width: 100%;
+}
+#submi{
+	width: 20%;
+	height: 30px;
+	margin: 0 auto;
+}
+#captch{
+	width: 60px;
+}
+.validate{
+	font-size: 20px;
+}
+.error{
+	background-color: #FF441C;
+}
+.correct{
+	background-color: #26FF1C;
+}

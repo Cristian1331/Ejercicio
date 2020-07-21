@@ -1,4 +1,4 @@
-<?php 
+<?php //adfadfadfadf
 	
 	header("Content_Type: image/png");
 	$imgg = imagecreate(50,30);

@@ -1,4 +1,4 @@
-<?php //comentario
+<?php 
 	
 	header("Content_Type: image/png");
 	$imgg = imagecreate(50,30);
